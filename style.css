@@ -1,0 +1,84 @@
+body {
+  background-color: #faac0599;
+  color:blueviolet;
+  font-family: 'Black Ops One', cursive;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 32px ;
+  font-weight: 900;
+  font-family: 'Black Ops One', cursive;
+  color:blueviolet
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Black Ops One', cursive;
+  color: blueviolet
+}
+
+div {
+  background-color:#FAB005;
+  width: 700px;
+  margin: 20px auto;
+  padding: 32px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+  border-radius: 4px;
+}
+
+a:hover {
+  color: black;
+}
+
+.card-black {
+  background-color: #FAB005;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+  padding: 32px;
+  width: 700px;
+  margin: 24px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-black {
+  background-color: blueviolet;
+  color: #FAB005;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+  width: 300px;
+}
+
+.btn-black:hover {
+  border: 1px solid blueviolet;
+  color: #FAB005;
+  background-color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card-black {
+    width: 500px;
+  }
+}
